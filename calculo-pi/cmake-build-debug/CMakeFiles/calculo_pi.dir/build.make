@@ -77,27 +77,27 @@ include CMakeFiles/calculo_pi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/calculo_pi.dir/flags.make
 
-CMakeFiles/calculo_pi.dir/main.c.o: CMakeFiles/calculo_pi.dir/flags.make
-CMakeFiles/calculo_pi.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calculo_pi.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculo_pi.dir/main.c.o   -c /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/main.c
+CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o: CMakeFiles/calculo_pi.dir/flags.make
+CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o: ../calculo_pi_procesos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o"
+	/usr/local/Cellar/gcc/10.2.0/bin/gcc-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o   -c /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/calculo_pi_procesos.c
 
-CMakeFiles/calculo_pi.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculo_pi.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/main.c > CMakeFiles/calculo_pi.dir/main.c.i
+CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.i"
+	/usr/local/Cellar/gcc/10.2.0/bin/gcc-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/calculo_pi_procesos.c > CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.i
 
-CMakeFiles/calculo_pi.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculo_pi.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/main.c -o CMakeFiles/calculo_pi.dir/main.c.s
+CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.s"
+	/usr/local/Cellar/gcc/10.2.0/bin/gcc-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/calculo_pi_procesos.c -o CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.s
 
 # Object files for target calculo_pi
 calculo_pi_OBJECTS = \
-"CMakeFiles/calculo_pi.dir/main.c.o"
+"CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o"
 
 # External object files for target calculo_pi
 calculo_pi_EXTERNAL_OBJECTS =
 
-calculo_pi: CMakeFiles/calculo_pi.dir/main.c.o
+calculo_pi: CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o
 calculo_pi: CMakeFiles/calculo_pi.dir/build.make
 calculo_pi: CMakeFiles/calculo_pi.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable calculo_pi"

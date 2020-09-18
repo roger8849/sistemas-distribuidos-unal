@@ -143,32 +143,32 @@ calculo_pi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/build
 .PHONY : calculo_pi/fast
 
-main.o: main.c.o
+calculo_pi_procesos.o: calculo_pi_procesos.c.o
 
-.PHONY : main.o
+.PHONY : calculo_pi_procesos.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/main.c.o
-.PHONY : main.c.o
+calculo_pi_procesos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o
+.PHONY : calculo_pi_procesos.c.o
 
-main.i: main.c.i
+calculo_pi_procesos.i: calculo_pi_procesos.c.i
 
-.PHONY : main.i
+.PHONY : calculo_pi_procesos.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/main.c.i
-.PHONY : main.c.i
+calculo_pi_procesos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.i
+.PHONY : calculo_pi_procesos.c.i
 
-main.s: main.c.s
+calculo_pi_procesos.s: calculo_pi_procesos.c.s
 
-.PHONY : main.s
+.PHONY : calculo_pi_procesos.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/main.c.s
-.PHONY : main.c.s
+calculo_pi_procesos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.s
+.PHONY : calculo_pi_procesos.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... calculo_pi"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... calculo_pi_procesos.o"
+	@echo "... calculo_pi_procesos.i"
+	@echo "... calculo_pi_procesos.s"
 .PHONY : help
 
 

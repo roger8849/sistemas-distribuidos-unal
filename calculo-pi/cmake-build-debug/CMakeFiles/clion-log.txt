@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/10.2.0/bin/gcc-10 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/10.2.0/bin/c++-10 -G "CodeBlocks - Unix Makefiles" /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug

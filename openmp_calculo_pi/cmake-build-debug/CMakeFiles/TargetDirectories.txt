@@ -1,0 +1,3 @@
+/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/openmp_calculo_pi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/openmp_calculo_pi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/openmp_calculo_pi/cmake-build-debug/CMakeFiles/openmp_calculo_pi.dir

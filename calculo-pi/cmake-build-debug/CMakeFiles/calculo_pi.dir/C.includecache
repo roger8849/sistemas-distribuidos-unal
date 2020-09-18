@@ -6,13 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/main.c
-stdio.h
--
-stdlib.h
--
-unistd.h
--
-pthread.h
--
-

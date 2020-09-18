@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="99e0035d-fad4-417c-bbc2-38697ba501b7" name="Fopenmp" defaultType="TOOL">
+      <configuration id="8f376c8d-e81e-4649-912c-ccf1b81ecdb8" name="Fopenmp">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_build with openmp" />
+        </build>
+      </configuration>
+    </target>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/10.2.0/bin/gcc-10 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/10.2.0/bin/c++-10 -G "CodeBlocks - Unix Makefiles" /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/openmp_calculo_pi
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/i864532/GitHub/unal/sistemas-distribuidos-unal/openmp_calculo_pi/cmake-build-debug-default-xcode

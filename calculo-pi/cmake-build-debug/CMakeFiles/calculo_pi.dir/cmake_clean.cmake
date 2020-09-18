@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/calculo_pi.dir/main.c.o"
+  "CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o"
   "calculo_pi"
   "calculo_pi.pdb"
 )

@@ -3,4 +3,4 @@ project(calculo_pi C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(calculo_pi main.c)
+add_executable(calculo_pi calculo_pi_procesos.c)
