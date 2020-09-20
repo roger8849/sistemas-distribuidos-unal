@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="calculo_pi">
-				<Option output="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/calculo_pi" prefix_auto="0" extension_auto="0"/>
+			<Target title="main">
+				<Option output="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -50,14 +50,14 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculo_pi"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="calculo_pi/fast">
-				<Option output="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/calculo_pi" prefix_auto="0" extension_auto="0"/>
+			<Target title="main/fast">
+				<Option output="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -69,15 +69,15 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculo_pi/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/calculo_pi_procesos.c">
-			<Option target="calculo_pi"/>
+		<Unit filename="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/main.c">
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

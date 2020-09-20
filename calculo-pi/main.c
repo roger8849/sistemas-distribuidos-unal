@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <pthread.h>
+#include <sys/time.h>
 
 #define ITERATIONS 1e09
-#define THREADS 1
+#define THREADS 16
 double piTotal[THREADS];
 
 void *calculatePi(void *arg)
@@ -27,6 +28,9 @@ void *calculatePi(void *arg)
 int main()
 {
     int threadId[THREADS], i, *retval;
+    struct timeval tval_before, tval_after, tval_result;
+    gettimeofday(&tval_before, NULL);
+
     pthread_t thread[THREADS];
 
     for(i = 0; i < THREADS; i++){
@@ -41,6 +45,11 @@ int main()
     for(i = 1; i < THREADS; i++){
         piTotal[0] = piTotal[0] + piTotal[i];
     }
+    gettimeofday(&tval_after, NULL);
+    timersub(&tval_after, &tval_before, &tval_result);
+    printf("Time elapsed: %ld.%06ld\n", (long int)tval_result.tv_sec, (long int)tval_result.tv_usec);
 
-    printf("\npi: %2.10f \n", piTotal[0]);
+    printf("\nValor de pi: %2.10f \n", piTotal[0]);
+
+
 }

@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/calculo_pi_procesos.c" "/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o"
-  "/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/main.c" "/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/calculo-pi/cmake-build-debug/CMakeFiles/calculo_pi.dir/main.c.o"
+  "/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/openmp_calculo_pi/main.c" "/Users/i864532/GitHub/unal/sistemas-distribuidos-unal/openmp_calculo_pi/cmake-build-debug-default-xcode/CMakeFiles/main.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

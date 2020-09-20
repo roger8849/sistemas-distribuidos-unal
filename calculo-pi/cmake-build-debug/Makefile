@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named calculo_pi
+# Target rules for targets named main
 
 # Build rule for target.
-calculo_pi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculo_pi
-.PHONY : calculo_pi
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-calculo_pi/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/build
-.PHONY : calculo_pi/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-calculo_pi_procesos.o: calculo_pi_procesos.c.o
+main.o: main.c.o
 
-.PHONY : calculo_pi_procesos.o
+.PHONY : main.o
 
 # target to build an object file
-calculo_pi_procesos.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.o
-.PHONY : calculo_pi_procesos.c.o
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
+.PHONY : main.c.o
 
-calculo_pi_procesos.i: calculo_pi_procesos.c.i
+main.i: main.c.i
 
-.PHONY : calculo_pi_procesos.i
+.PHONY : main.i
 
 # target to preprocess a source file
-calculo_pi_procesos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.i
-.PHONY : calculo_pi_procesos.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
+.PHONY : main.c.i
 
-calculo_pi_procesos.s: calculo_pi_procesos.c.s
+main.s: main.c.s
 
-.PHONY : calculo_pi_procesos.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-calculo_pi_procesos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculo_pi.dir/build.make CMakeFiles/calculo_pi.dir/calculo_pi_procesos.c.s
-.PHONY : calculo_pi_procesos.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... calculo_pi"
-	@echo "... calculo_pi_procesos.o"
-	@echo "... calculo_pi_procesos.i"
-	@echo "... calculo_pi_procesos.s"
+	@echo "... main"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
